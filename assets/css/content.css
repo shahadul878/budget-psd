@@ -55,3 +55,7 @@
 .table-slider-init .single-table tr th:not(:last-child) {
     border-right: 1px solid #e1e5ea;
 }
+
+.table-slider-init .slick-list [data-slick-index="1"] {
+    opacity: 0.4;
+}

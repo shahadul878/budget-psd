@@ -74,14 +74,13 @@
         var sliderNav = $('.table-slider-nav ul');
         var count = $('.hero-slider-nav li').length;
         slider.slick({
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
             arrows: false,
             asNavFor: sliderNav,
             infinite: true,
-            autoplay: true,
-            autoplaySpeed: 5000,
-            centerPadding: '60px',
+            autoplay: false,
+            autoplaySpeed: 5000
         })
         sliderNav.slick({
             slidesToShow: 3,
@@ -92,7 +91,7 @@
             dots: false,
             centerMode: true,
             focusOnSelect: true,
-            vertical: true,
+            vertical: false,
             adaptiveHeight: true
         })
 
