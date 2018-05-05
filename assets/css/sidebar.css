@@ -1,0 +1,28 @@
+/* Page Sidebar */
+
+.page-sidebar {
+    background: #485868;
+}
+
+.page-sidebar-top {
+    background: #e0e4e8;
+}
+
+.sidebar-select {}
+
+.sidebar-select select {
+    font-size: 90%;
+    color: #9aaaba;
+    background: transparent;
+    margin-bottom: 15px;
+}
+
+.sidebar-select select:focus {
+    outline: 0;
+}
+
+/* list item */
+
+.sidebar-list-item ul li {
+    border-bottom: 1px solid #fff;
+}
