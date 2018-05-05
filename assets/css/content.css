@@ -108,7 +108,7 @@
 }
 
 #table_accordion ul li {
-    padding: 10px 5px;
+    padding: 10px 5px 10px 20px;
 }
 
 #table_accordion ul li[data-toggle="collapse"][aria-expanded="false"]::before {
@@ -121,12 +121,16 @@
     margin: 0 5px 0 0;
 }
 
-#table_accordion ul>ul {
+#table_accordion ul>li>ul {
     padding-left: 10px;
 }
 
-#table_accordion ul>ul>li.collapse {
+#table_accordion ul>li>ul>li>ul {
     padding-left: 20px;
+}
+
+#table_accordion ul>li>ul>li>ul>li>ul {
+    padding-left: 25px;
 }
 
 #table_accordion ul li:not(:last-child) {
