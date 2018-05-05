@@ -90,7 +90,6 @@
             arrows: false,
             asNavFor: slider,
             dots: false,
-            centerMode: true,
             focusOnSelect: true,
             vertical: false,
             adaptiveHeight: true

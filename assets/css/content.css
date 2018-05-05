@@ -57,5 +57,39 @@
 }
 
 .table-slider-init .slick-slide.slick-current {
-    opacity: 0.4;
+    box-shadow: 0px 0px 25px 5px #dedede;
+    position: relative;
+    z-index: 999 !important;
+    width: 5% !important;
+}
+
+.table-slider-init .slick-slide.slick-current .table-title {
+    color: #f5a46c;
+    background: #fbd7be;
+}
+
+/* Table Slider Nav */
+
+.table-slider-nav ul {
+    margin-bottom: 0;
+}
+
+.table-slider-nav .slick-slide {
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.table-slider-nav .slick-slide::before {
+    content: '';
+    position: absolute;
+    width: 96%;
+    height: 3px;
+    background: #9aaaba;
+    bottom: 0;
+    left: 2%;
+}
+
+.table-slider-nav .slick-slide.slick-current::before {
+    background: #f5a46c;
 }
