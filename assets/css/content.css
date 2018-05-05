@@ -103,12 +103,30 @@
 
 /* Table Category */
 
-#table_accordion ul {
+.table-accordion-list {
     margin: 42px 0 0;
 }
 
 #table_accordion ul li {
     padding: 10px 5px;
+}
+
+#table_accordion ul li[data-toggle="collapse"][aria-expanded="false"]::before {
+    content: '\25BA';
+    margin: 0 5px 0 0;
+}
+
+#table_accordion ul li[data-toggle="collapse"][aria-expanded="true"]::before {
+    content: '\25BC';
+    margin: 0 5px 0 0;
+}
+
+#table_accordion ul>ul {
+    padding-left: 10px;
+}
+
+#table_accordion ul>ul>li.collapse {
+    padding-left: 20px;
 }
 
 #table_accordion ul li:not(:last-child) {

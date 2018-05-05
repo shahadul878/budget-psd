@@ -177,10 +177,40 @@
                                         <div class="table-category">
                                             <h5 class="table-title">Category</h5>
                                             <div id="table_accordion">
-                                                <ul>
-                                                    <li data-toggle="collapse" data-target="#index1">parent</li>
-                                                    <li id="index1" class="collapse" data-toggle="collapse" data-target="#index2">parent</li>
-                                                    <li id="index2" class="collapse">item 2</li>
+                                                <ul class="table-accordion-list">
+                                                    <li>Opening Balance</li>
+                                                    <li>Income</li>
+                                                    <li>Expense</li>
+                                                    <li>Closing Balance</li>
+                                                    <!-- Collapse -->
+                                                    <li data-toggle="collapse" data-target="#indep_1" aria-expanded="false">Africa</li>
+                                                    <ul id="indep_1" class="collapse">
+                                                        <li data-toggle="collapse" data-target="#indep_2" aria-expanded="false">Total Expenses</li>
+                                                        <li id="indep_2" class="collapse">Net</li>
+                                                    </ul>
+                                                    <!-- Collapse// -->
+                                                    <!-- Collapse -->
+                                                    <li data-toggle="collapse" data-target="#indep_3" aria-expanded="false">Alumni Meeting</li>
+                                                    <ul id="indep_3" class="collapse">
+                                                        <li data-toggle="collapse" data-target="#indep_4" aria-expanded="false">Total Expenses</li>
+                                                        <li class="p-0">
+
+                                                            <ul id="indep_4" class="collapse">
+                                                                <li>item 1</li>
+                                                                <li data-toggle="collapse" data-target="#indep_5" aria-expanded="false">item 2</li>
+                                                                <li class="p-0">
+                                                                    <ul id="indep_5" class="collapse">
+                                                                        <li>1</li>
+                                                                        <li>2</li>
+                                                                        <li>3</li>
+                                                                    </ul>
+                                                                </li>
+                                                                <li>item 3</li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                    <!-- Collapse// -->
+
                                                 </ul>
                                             </div>
                                         </div>
