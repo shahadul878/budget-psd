@@ -19,3 +19,9 @@
     right: 0;
     z-index: -1;
 }
+
+.table-content-area .table-content-top select {
+    border: 0;
+    background: transparent;
+    font-weight: bold;
+}
