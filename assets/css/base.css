@@ -7,14 +7,14 @@ body {
     background: transparent;
 }
 
-html,
+/* html,
 body,
 main,
 .container-fluid,
 .container-fluid .row,
     {
     height: 100%;
-}
+} */
 
 a {
     color: #fff;
