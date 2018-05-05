@@ -80,10 +80,11 @@
             asNavFor: sliderNav,
             infinite: true,
             autoplay: false,
-            autoplaySpeed: 5000
+            autoplaySpeed: 5000,
+            centerMode: true
         })
         sliderNav.slick({
-            slidesToShow: 3,
+            slidesToShow: 12,
             slidesToScroll: 1,
             infinite: true,
             arrows: false,

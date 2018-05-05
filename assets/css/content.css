@@ -56,6 +56,6 @@
     border-right: 1px solid #e1e5ea;
 }
 
-.table-slider-init .slick-list [data-slick-index="1"] {
+.table-slider-init .slick-slide.slick-current {
     opacity: 0.4;
 }
