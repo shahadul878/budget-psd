@@ -70,17 +70,18 @@
     }
     // ========================== HeroSlider ==========================
     function heroSlider() {
-        var slider = $('.hero-slider-init');
-        var sliderNav = $('.hero-slider-nav');
+        var slider = $('.table-slider-init');
+        var sliderNav = $('.table-slider-nav ul');
         var count = $('.hero-slider-nav li').length;
         slider.slick({
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
             arrows: false,
             asNavFor: sliderNav,
             infinite: true,
             autoplay: true,
-            autoplaySpeed: 5000
+            autoplaySpeed: 5000,
+            centerPadding: '60px',
         })
         sliderNav.slick({
             slidesToShow: 3,
