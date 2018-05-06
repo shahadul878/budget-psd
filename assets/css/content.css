@@ -144,3 +144,9 @@
 .table-category .table-title {
     background: transparent;
 }
+
+/* Accordion Slider in Table */
+
+.table-slider-init .single-table tr.collapse.show {
+    background: #9aaaba;
+}
