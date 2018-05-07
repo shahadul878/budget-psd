@@ -238,3 +238,7 @@ ul.table-accordion-list  ul.show li.show {
     margin-left: 20px;
     
 }
+/* Table Row Color */
+.table-slider-init .slick-slide.slick-current .single-table tr.c_color {
+    background: #fbd7be;
+}
