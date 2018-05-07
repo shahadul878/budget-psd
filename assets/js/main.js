@@ -74,7 +74,6 @@
     function heroSlider() {
         var slider = $('.table-slider-init');
         var sliderNav = $('.table-slider-nav ul');
-        var count = $('.hero-slider-nav li').length;
         slider.slick({
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -82,10 +81,11 @@
             prevArrow: '<button type="button" class="slick-prev"><img src="assets/img/arrow-left.png" ></button>',
             nextArrow: '<button type="button" class="slick-next"><img src="assets/img/arrow-right.png" ></button>',
             asNavFor: sliderNav,
-            infinite: true,
+            infinite: false,
             autoplay: false,
             autoplaySpeed: 5000,
-            centerMode: true
+            centerMode: false,
+            adaptiveHeight: true
         })
         sliderNav.slick({
             slidesToShow: 12,
