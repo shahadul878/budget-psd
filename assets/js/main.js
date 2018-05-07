@@ -81,10 +81,10 @@
             prevArrow: '<button type="button" class="slick-prev"><img src="assets/img/arrow-left.png" ></button>',
             nextArrow: '<button type="button" class="slick-next"><img src="assets/img/arrow-right.png" ></button>',
             asNavFor: sliderNav,
-            infinite: false,
+            infinite: true,
             autoplay: false,
             autoplaySpeed: 5000,
-            centerMode: false,
+            centerMode: true,
             adaptiveHeight: true
         })
         sliderNav.slick({

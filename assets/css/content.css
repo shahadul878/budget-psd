@@ -57,9 +57,11 @@
     border-right: 1px solid #e1e5ea;
 }
 
-.table-slider-init .slick-slide.slick-current .slide-item {
+.table-slider-init .slick-slide.slick-current {
     box-shadow: 0px 0px 25px 5px #dedede;
+    position: relative;
     z-index: 999 !important;
+    width: 5% !important;
 }
 
 .table-slider-init .slick-slide.slick-current .table-title {
