@@ -173,6 +173,16 @@
 
             });
         })
+
+        // collpse to show
+
+        // show
+        var listcol = $('.table-accordion-list > [data-toggle="collapse"]');
+        listcol.each(function (i, li) {
+            console.log(li)
+
+        })
+
     }
 
 

@@ -57,11 +57,17 @@
     border-right: 1px solid #e1e5ea;
 }
 
+/* current slider style */
+
 .table-slider-init .slick-slide.slick-current {
     box-shadow: 0px 0px 25px 5px #dedede;
     position: relative;
     z-index: 999 !important;
     width: 5% !important;
+}
+
+.table-slider-init .slick-slide.slick-current .single-table tr {
+    background: red;
 }
 
 .table-slider-init .slick-slide.slick-current .table-title {
@@ -189,4 +195,34 @@
 
 .table-slider-init [data-slick-index="23"] {
     display: none;
+}
+
+/* Collpase block */
+
+.collapse-block-area .single-block {
+    background: #fff;
+    box-shadow: 0px 0px 20px 2px #ddd;
+    padding: 25px;
+}
+
+.collapse-block-area .single-block .price {
+    font-size: 45px;
+    color: #f5a46c;
+}
+
+/* buttons */
+
+/* .collapse-block-button {
+    display: none;
+} */
+
+.collapse-block-button li a {
+    text-align: center;
+    padding: 6px 25px;
+    border: 1px solid #f5a46c;
+    color: #333;
+}
+
+.collapse-block-button li:not(:last-child) {
+    margin-right: 10px;
 }
