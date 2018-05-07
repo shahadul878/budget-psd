@@ -8,9 +8,6 @@
 
 @import './plugins/slick.css';
 @import './plugins/aos.css';
-/* Library */
-
-@import './lib/css/font-awesome.min.css';
 /* Styles */
 
 @import './base.css';

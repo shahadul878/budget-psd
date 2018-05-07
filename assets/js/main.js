@@ -148,18 +148,13 @@
     }
 
     // Accordion
+    var rootColl = $('[data-root-collapse]');
+    console.log(rootColl)
+    // $("button:last").click(function () {
+    //     $("button:first").trigger("click");
+    //     update($("span:last"));
+    // });
 
-    // var collapse = $('.table-accordion-list > [data-toggle="collapse"]');
-
-    // collapse.each(function (index, li) {
-    //     $(li).on('click', function (e) {
-    //         var indep = e.target.getAttribute('data-target');
-    //         var colRow = $('.single-table').find('.collapse.show')
-    //         if (e.target.getAttribute('aria-expanded') == 'true') {
-    //             console.log(colRow)
-    //         }
-    //     })
-    // })
 
 
 })(jQuery); // End of use strict
