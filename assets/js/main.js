@@ -23,6 +23,7 @@
     $(document).ready(function () {
         animations();
         mobileMenu();
+        tableAccordin();
 
     });
 
@@ -148,12 +149,29 @@
     }
 
     // Accordion
-    var rootColl = $('[data-root-collapse]');
-    console.log(rootColl)
-    // $("button:last").click(function () {
-    //     $("button:first").trigger("click");
-    //     update($("span:last"));
-    // });
+    function tableAccordin() {
+        var rootColl = $('[data-root-collapse]');
+        rootColl.each(function (i, li) {
+            $(li).click(function () {
+                var rootCollItem = this.getAttribute('data-root-collapse');
+                var expand = this.getAttribute('aria-expanded');
+
+                if (expand == 'true') {
+                    var trigger = $("." + rootCollItem);
+
+                    trigger.each(function (i, t) {
+                        var triggerExpand = t.getAttribute('aria-expanded');
+                        if (triggerExpand == 'true') {
+
+                            $(t).trigger("click");
+                        }
+                    })
+                }
+
+
+            });
+        })
+    }
 
 
 
