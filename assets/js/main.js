@@ -153,6 +153,8 @@
     // Accordion
     function tableAccordin() {
         var rootColl = $('[data-root-collapse]');
+        // hide block area
+        $('.collapse-block-area').hide();
         rootColl.each(function (i, li) {
             $(li).click(function () {
                 var rootCollItem = this.getAttribute('data-root-collapse');
@@ -168,26 +170,18 @@
                             $(t).trigger("click");
                         }
                     })
+                    // hide block area
+                    $('.collapse-block-area').hide();
+
+                } else {
+                    // show block area
+                    $('.collapse-block-area').show();
                 }
 
 
             });
         })
 
-        // collpse to show
-
-        // show
-        var listcol = $('.table-accordion-list > [data-toggle="collapse"]');
-        listcol.each(function (i, li) {
-            if (li.getAttribute('aria-expanded') == 'false') {
-
-                $('.collapse-block-area').hide();
-            } else {
-
-                $('.collapse-block-area').show();
-            }
-
-        })
 
     }
 
