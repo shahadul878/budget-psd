@@ -184,3 +184,9 @@
 .slick-arrow.slick-prev {
     right: calc(100% + 33%);
 }
+
+/* Space problem fix */
+
+.table-slider-init [data-slick-index="23"] {
+    display: none;
+}
