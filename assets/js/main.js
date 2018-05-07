@@ -179,7 +179,13 @@
         // show
         var listcol = $('.table-accordion-list > [data-toggle="collapse"]');
         listcol.each(function (i, li) {
-            console.log(li)
+            if (li.getAttribute('aria-expanded') == 'false') {
+
+                $('.collapse-block-area').hide();
+            } else {
+
+                $('.collapse-block-area').show();
+            }
 
         })
 
