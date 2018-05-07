@@ -238,3 +238,19 @@ ul.table-accordion-list  ul.show li.show {
     margin-left: 20px;
     
 }
+
+
+
+.table-slider-init .slick-slide.slick-current.slick-active.slick-center > div > div > table > tbody > tr:nth-child(3) {
+    background: #fbd7be;
+}
+
+.table-slider-init .slick-slide.slick-current.slick-active.slick-center > div > div > table > tbody > tr:nth-child(2) {
+    background: #fbd7be;
+}
+.table-slider-init .slick-slide.slick-current.slick-active.slick-center > div > div > table > tbody > tr:nth-child(4) {
+    background: #fbd7be;
+}
+.table-slider-init .slick-slide.slick-current.slick-active.slick-center > div > div > table > tbody > tr:nth-child(5) {
+    background: #fbd7be;
+}
