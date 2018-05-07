@@ -78,7 +78,9 @@
         slider.slick({
             slidesToShow: 3,
             slidesToScroll: 1,
-            arrows: false,
+            arrows: true,
+            prevArrow: '<button type="button" class="slick-prev"><img src="assets/img/arrow-left.png" ></button>',
+            nextArrow: '<button type="button" class="slick-next"><img src="assets/img/arrow-right.png" ></button>',
             asNavFor: sliderNav,
             infinite: true,
             autoplay: false,

@@ -150,3 +150,37 @@
 .table-slider-init .single-table tr.collapse.show {
     background: #9aaaba;
 }
+
+/* Customize slick */
+
+.slick-arrow {
+    position: absolute;
+    top: 200px;
+    z-index: 99;
+    background: #fff;
+    border: 0;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 2px #dedede;
+    font-size: 2.5rem;
+    padding: 0;
+}
+
+.slick-arrow:focus {
+    outline: 0;
+}
+
+.slick-arrow img {
+    width: 20px;
+    height: 25px;
+}
+
+.slick-arrow.slick-next {
+    left: calc(100% + 2%);
+}
+
+.slick-arrow.slick-prev {
+    right: calc(100% + 33%);
+}
