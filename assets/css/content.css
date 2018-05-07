@@ -226,3 +226,15 @@
 .collapse-block-button li:not(:last-child) {
     margin-right: 10px;
 }
+
+/*Collapse Cat*/
+
+ul.table-accordion-list  ul.show {
+    margin-left: 10px;
+    
+}
+
+ul.table-accordion-list  ul.show li.show {
+    margin-left: 20px;
+    
+}
