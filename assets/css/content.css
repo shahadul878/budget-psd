@@ -66,10 +66,10 @@
     width: 5% !important;
 }
 
-.table-slider-init .slick-slide.slick-current .single-table tr {
+/*.table-slider-init .slick-slide.slick-current .single-table tr {
     background: red;
 }
-
+*/
 .table-slider-init .slick-slide.slick-current .table-title {
     color: #f5a46c;
     background: #fbd7be;
