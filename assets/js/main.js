@@ -85,7 +85,14 @@
             autoplay: false,
             autoplaySpeed: 5000,
             centerMode: true,
-            adaptiveHeight: true
+            adaptiveHeight: true,
+            responsive: [{
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+
+                }
+            }]
         })
         sliderNav.slick({
             slidesToShow: 12,
@@ -96,7 +103,14 @@
             dots: false,
             focusOnSelect: true,
             vertical: false,
-            adaptiveHeight: true
+            adaptiveHeight: true,
+            responsive: [{
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                }
+            }]
         })
 
         // Add Animation Globaly
